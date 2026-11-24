@@ -14,6 +14,6 @@ const itemCarrinho = {
 
 console.log(itemCarrinho) // { Saída: nome: 'Notebook', preco: 3500, categoria: 'Periféricos', quantidade: 3 }
 
-console.log(produto.preco) // 2499 - O objeto produto não foi alterado, apenas copiado para o objeto itemCarrinho
+console.log(produto.preco) // Saída: 2499 (objeto produto permanece inalterado)
 
-console.log(produto) // { nome: 'Notebook', preco: 2499, categoria: 'Periféricos' } - O objeto produto não foi alterado, apenas copiado para o objeto itemCarrinho
+console.log(produto) // Saída: 3500 (o objeto itemCarrinho tem o preço atualizado)
