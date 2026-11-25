@@ -1,0 +1,11 @@
+{
+  "nome": "Paola Dutra",
+  "email": "paola.dutra@example.com",
+  "telefone": ["119999999", "118888888"],
+  "endereco": {
+            "rua": "Av. Paulista",
+            "numero": 1000,
+            "apartamento": true,
+            "complemento": "ap 934"
+        }
+}
